@@ -1,0 +1,63 @@
+@page "/adminpage"
+@inherits AdminpageBase
+<h1>postlar</h1>
+@foreach (var p in people)
+{
+    jj = @p.Id;
+    jja = @p.veritutiki;
+    jjb = @p.konu;
+    jjc = @p.Mesaj;
+    <p>
+        <hr />
+        numaralıpost: @jj
+        <br>
+        yazan: @p.veritutiki
+        <br>
+        konu:@p.konu
+        <br>
+        mesaj:@p.Mesaj
+        <br>
+        <hr />
+        <button class="btn btn-danger" @onclick='()=> sil(jj)'>Sil</button>
+        <button class="btn btn-primary" @onclick='()=> InsertData(jja,jjb,jjc)'>Yayınla</button>
+    </p>
+
+    <hr />
+}
+
+
+<hr />
+<hr />
+<h1>kullanıcılar</h1>
+
+
+
+<label>Aktif et:</label>
+<br>
+<select value="@aktifverisi" @onchange="UpdateName">
+    <option value="Select">Select</option>
+    <option>yes</option>
+    <option>no</option>
+</select>
+<hr />
+@foreach (var z in peopleb)
+{
+    cc = @z.Idb;
+    cca = @z.email;
+    <p>
+        <hr />
+
+        Kullanıcı Id:@z.Idb
+        <br>
+        mail:@z.email
+        <br>
+        aktiflik:@z.akt
+        <br>
+        <br>
+
+        @* <button class="btn btn-danger" @onclick='()=> DeleteData(bb,bba)'>Delete</button> *@
+        <button class="btn btn-warning" @onclick='()=> aktifet(cc,cca)'>Aktif et</button>
+
+    </p>
+    <hr />
+}

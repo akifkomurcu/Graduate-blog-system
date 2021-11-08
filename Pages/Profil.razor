@@ -1,0 +1,20 @@
+@page "/profil/{bbtut}"
+@inherits ProfilBase
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
+<h1>@bbtut POSTLARI</h1>
+@foreach (var p in people)
+{
+    if (p.veritutiki == bbtut)
+    {
+        <p>
+            <hr />
+        <h3>konu:@p.konua</h3>
+        <br>
+        <h3>mesaj:@p.Mesaja</h3>
+        <br>
+        <hr />
+        </p>
+        <hr />
+    }
+
+}

@@ -1,0 +1,45 @@
+﻿@page "/register"
+@inherits RegisterBase
+
+<EditForm Model="@EntryAccount">
+    <h1>REGİSTER IN</h1>
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <label>Name:</label>
+    <br />
+    <InputText id="accountName" @bind-Value="@EntryAccount.AccountName" />
+    <br />
+    <label>Number:</label>
+    <br />
+    <InputText id="accountName" @bind-Value="@EntryAccount.AccountNumber" />
+    <br />
+    <br />
+    <label>Graduation:</label>
+    <br />
+    <select value="@inputgraduation" @onchange="UpdateName">
+        <option value="Select">Select</option>
+        <option>Yes</option>
+        <option>No</option>
+    </select>
+    <br />
+    <br />
+    <label>Graduation Year:</label>
+    <br />
+    <InputText id="accountName" @bind-Value="@EntryAccount.Gradyear" />
+
+    <br />
+
+
+
+    <label>E-mail:</label>
+    <br />
+    <InputText id="eMail" @bind-Value="@EntryAccount.EMailAddress" />
+    <br />
+    <label>Password:</label>
+    <br />
+    <InputText id="accountName" @bind-Value="@EntryAccount.password" />
+
+    <br />
+    <br />
+    <button class="btn btn-primary" @onclick="InsertData">Send</button>
+</EditForm>

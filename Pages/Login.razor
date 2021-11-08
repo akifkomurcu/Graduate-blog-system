@@ -1,0 +1,31 @@
+@page "/Login"
+@inherits LoginBase
+
+<div align="center">
+    <h1>Login</h1>
+    <br />
+    <EditForm Model="@LoginData" OnValidSubmit="@OnValidSubmit" OnInvalidSubmit="@OnInvalidSubmit">
+        <DataAnnotationsValidator />
+        @* All Validation messages are displayed where you place *@
+        <ValidationSummary />
+
+        <div class="form-group">
+            <label>User__ID</label>
+            <InputText id="txtUserID" @bind-Value="LoginData.UserID" />
+            <ValidationMessage For="@(() => LoginData.UserID)" />
+        </div>
+
+        <div>
+            <label>PassWord</label>
+            <InputText id="txtPassword" type="password" @bind-Value="LoginData.Password" />
+            <ValidationMessage For="@(() => LoginData.Password)" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Login</button>
+        <br>
+        Üye değil misiniz? <a href="/register">üye olun</a>
+        <br>
+        @loginerror
+
+    </EditForm>
+</div>

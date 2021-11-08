@@ -1,0 +1,64 @@
+@page "/sohbet"
+@inherits SohbetBase
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
+@inject NavigationManager NavigationManager
+<div>
+
+</div>
+Hoş geldin <a href="/profill"> @UserID</a>
+<h1>SOHBET</h1>
+
+
+<br />
+<p>
+    <label>Konu:</label>
+    <br>
+    <select value="@konuverisi" @onchange="UpdateName">
+        <option value="Select">Select</option>
+        <option>Haber</option>
+        <option>İş</option>
+    </select>
+    <br>
+    mesaj:
+    <br>
+    <textarea @bind="inputName"> </textarea>
+</p>
+<br />
+<button class="btn btn-primary" @onclick="InsertData">Mesaj Gönder</button>
+<button class="btn btn-danger" @onclick="ClearLocalStorage">Çıkış Yap</button>
+@if (peoplea == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @foreach (var p in peoplea)
+    {
+        bb = @p.Id;
+        bbtut = @p.veritutiki;
+        bba = @p.veritutiki;
+        bbb = @p.konu;
+        bbc = @p.Mesaj;
+        <p>
+            <hr />
+            yazan: <a href="/profil/@bbtut">@bbtut</a>
+            <br>
+            konu:@p.konua
+            <br>
+            mesaj:@p.Mesaja
+            <br>
+
+
+            @* sadece giriş yapan kişi sil ve Güncelle butonlarını görebilecek *@
+            @if (@UserID == @bbtut)
+            {
+                <button class="btn btn-danger" @onclick='()=> DeleteData(bb,bba)'>Sil</button>
+                <button class="btn btn-warning" @onclick='()=> UpdateData(bb,bba)'>Güncelle</button>
+            }
+
+
+        </p>
+        <hr />
+    }
+
+}

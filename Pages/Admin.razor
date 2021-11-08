@@ -1,0 +1,20 @@
+@page "/admin"
+@inherits AdminBase
+
+
+<div align="center">
+    <h6>ADMİN PAGE</h6>
+    <br />
+    <br />
+    MAİL:
+
+    <input @bind="adminname">
+    <br />
+    <br />
+    PASSWORD:
+
+    <input @bind="adminpass">
+    <br />
+    <br />
+    <button class="btn btn-primary" @onclick="loginadmin">Log in</button>
+</div>
