@@ -319,39 +319,6 @@
         }
       },
       {
-        "HashCode": -1576095109,
-        "Kind": "Components.Component",
-        "Name": "mvvm1.Pages.Admin",
-        "AssemblyName": "mvvm1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Admin"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "mvvm1.Pages.Admin"
-        }
-      },
-      {
-        "HashCode": 959677000,
-        "Kind": "Components.Component",
-        "Name": "mvvm1.Pages.Admin",
-        "AssemblyName": "mvvm1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "mvvm1.Pages.Admin"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "mvvm1.Pages.Admin",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 954607580,
         "Kind": "Components.Component",
         "Name": "mvvm1.Pages.Adminpage",
@@ -626,6 +593,39 @@
         }
       },
       {
+        "HashCode": -1576095109,
+        "Kind": "Components.Component",
+        "Name": "mvvm1.Pages.Admin",
+        "AssemblyName": "mvvm1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Admin"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "mvvm1.Pages.Admin"
+        }
+      },
+      {
+        "HashCode": 959677000,
+        "Kind": "Components.Component",
+        "Name": "mvvm1.Pages.Admin",
+        "AssemblyName": "mvvm1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "mvvm1.Pages.Admin"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "mvvm1.Pages.Admin",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1624592201,
         "Kind": "Components.Component",
         "Name": "mvvm1.Pages.Sohbet",
@@ -688,59 +688,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "mvvm1.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 690617437,
-        "Kind": "Components.Component",
-        "Name": "mvvm1.Shared.SurveyPrompt",
-        "AssemblyName": "mvvm1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "mvvm1.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 164006792,
-        "Kind": "Components.Component",
-        "Name": "mvvm1.Shared.SurveyPrompt",
-        "AssemblyName": "mvvm1",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "mvvm1.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "mvvm1.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -837,6 +784,59 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "mvvm1.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 690617437,
+        "Kind": "Components.Component",
+        "Name": "mvvm1.Shared.SurveyPrompt",
+        "AssemblyName": "mvvm1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "mvvm1.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 164006792,
+        "Kind": "Components.Component",
+        "Name": "mvvm1.Shared.SurveyPrompt",
+        "AssemblyName": "mvvm1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "mvvm1.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "mvvm1.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

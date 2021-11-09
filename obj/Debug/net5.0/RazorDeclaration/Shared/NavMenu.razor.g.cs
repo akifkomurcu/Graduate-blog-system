@@ -210,8 +210,8 @@ using System.Net.Http.Headers;
     {
         collapseNavMenu = !collapseNavMenu;
     }
-  
-   
+
+
 
 #line default
 #line hidden
