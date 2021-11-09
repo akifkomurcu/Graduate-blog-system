@@ -1,5 +1,5 @@
 # Graduate-blog-system
-This is a graduate blog system written with blazor.
+This is a graduate blog system 
 
 My project is based on alumni helping students.
 
