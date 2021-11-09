@@ -210,26 +210,8 @@ using System.Net.Http.Headers;
     {
         collapseNavMenu = !collapseNavMenu;
     }
-    public async Task ReadCookies(string cookiekey)
-    {
-        var Value = await localStorage.GetAsync<string>(cookiekey);
-        resultCookieValue = Value.Success ? Value.Value : "";
-
-
-    }
-    protected override async Task OnInitializedAsync()
-    {
-        await ReadCookies("userid");
-        if (resultCookieValue != null)
-        {
-            UserID = resultCookieValue;
-
-        }
-        else
-        {
-            UserID = "NULL";
-        }
-    }
+  
+   
 
 #line default
 #line hidden

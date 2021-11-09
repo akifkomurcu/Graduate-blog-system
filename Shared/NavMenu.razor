@@ -56,24 +56,6 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
-    public async Task ReadCookies(string cookiekey)
-    {
-        var Value = await localStorage.OnAfterRenderAsync<string>(cookiekey);
-        resultCookieValue = Value.Success ? Value.Value : "";
-
-
-    }
-    protected override async Task OnInitializedAsync()
-    {
-        await ReadCookies("userid");
-        if (resultCookieValue != null)
-        {
-            UserID = resultCookieValue;
-
-        }
-        else
-        {
-            UserID = "NULL";
-        }
-    }
+  
+   
 }
