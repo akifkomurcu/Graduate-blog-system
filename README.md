@@ -17,4 +17,4 @@ in the information
 
 If "Status: Stopped"
 
-SqlLocalDb starts "akifzsche"
+SqlLocalDb start "akifzsche"
