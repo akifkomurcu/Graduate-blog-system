@@ -11,7 +11,7 @@ commands to be run in order (to be done after the first installation)
 
 1-  SqlLocalDb Create "akifzsche"
 
-2- SqlLocalDb information "akifzsche"
+2- SqlLocalDb info "akifzsche"
 
 in the information
 
