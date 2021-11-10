@@ -9,12 +9,12 @@ run powershell.
 
 commands to be run in order (to be done after the first installation)
 
-1- Create SqlLocalDb "SMYO"
+1-  SqlLocalDb Create "akifzsche"
 
-2- SqlLocalDb information "SMYO"
+2- SqlLocalDb information "akifzsche"
 
 in the information
 
 If "Status: Stopped"
 
-SqlLocalDb starts "SMYO"
+SqlLocalDb starts "akifzsche"
