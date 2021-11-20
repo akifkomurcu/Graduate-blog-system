@@ -23,7 +23,7 @@ namespace mvvm1.Pages
 {
     public class ProfilBase : ComponentBase
     {
-        static string connectionString = "Data Source=(localdb)\\akifzsche; database=akifzsche;Encrypt=False;TrustServerCertificate=False;Trusted_Connection=True;";
+        static string connectionString = "Data Source=(localdb)\\akifzsche; database=smyodb;Encrypt=False;TrustServerCertificate=False;Trusted_Connection=True;";
         static SqlConnection conn = new SqlConnection(connectionString);
         static string sql = "select * from arpost";
         static SqlDataAdapter daps = new SqlDataAdapter(sql, conn);

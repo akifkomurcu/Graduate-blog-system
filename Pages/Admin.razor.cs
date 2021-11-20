@@ -26,7 +26,7 @@ namespace mvvm1.Pages
         [Inject]
         protected NavigationManager NavManager { get; set; }
 
-        static string connectionString = "Data Source=(localdb)\\akifzsche; database=akifzsche;Encrypt=False;TrustServerCertificate=False;Trusted_Connection=True;";
+        static string connectionString = "Data Source=(localdb)\\akifzsche; database=smyodb;Encrypt=False;TrustServerCertificate=False;Trusted_Connection=True;";
         static SqlConnection conn = new SqlConnection(connectionString);
         static string sql = "select mail,pass from adminler";
         static SqlDataAdapter daps = new SqlDataAdapter(sql, conn);

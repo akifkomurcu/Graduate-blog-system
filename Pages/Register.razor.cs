@@ -50,7 +50,7 @@ namespace mvvm1.Pages
         [Inject]
         public NavigationManager Navigation { get; set; }
         public Account EntryAccount { get; set; } = new Account();
-        static string connectionString = "Data Source=(localdb)\\akifzsche; database=akifzsche;Encrypt=False;TrustServerCertificate=False;Trusted_Connection=True;";
+        static string connectionString = "Data Source=(localdb)\\akifzsche; database=smyodb;Encrypt=False;TrustServerCertificate=False;Trusted_Connection=True;";
         static SqlConnection conn = new SqlConnection(connectionString);
         static string sql = "select Id,Name,studentnumber,graduation,graduationyear,mail,password,aktif from kullanıcılar";
         static SqlDataAdapter daps = new SqlDataAdapter(sql, conn);

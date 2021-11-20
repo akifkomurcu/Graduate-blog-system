@@ -6030,19 +6030,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KOMURCU\\.nuget\\packages\\": {}
+    "C:\\Users\\Akif\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KOMURCU\\Desktop\\mvvm1\\mvvm1.csproj",
+      "projectUniqueName": "C:\\Users\\Akif\\Desktop\\mvvm1\\mvvm1.csproj",
       "projectName": "mvvm1",
-      "projectPath": "C:\\Users\\KOMURCU\\Desktop\\mvvm1\\mvvm1.csproj",
-      "packagesPath": "C:\\Users\\KOMURCU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KOMURCU\\Desktop\\mvvm1\\obj\\",
+      "projectPath": "C:\\Users\\Akif\\Desktop\\mvvm1\\mvvm1.csproj",
+      "packagesPath": "C:\\Users\\Akif\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Akif\\Desktop\\mvvm1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\KOMURCU\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Akif\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -6089,6 +6089,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.12, 5.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -6097,7 +6103,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
