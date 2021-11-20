@@ -5,16 +5,28 @@ My project is based on alumni helping students.
 
 Written with .NET Blazor on the backend side.
 
+to make it work:
+
+install the sqllocaldb 2019 and dotnet sdk
+
+then:
+
 run powershell.
 
 commands to be run in order (to be done after the first installation)
 
-1- Create SqlLocalDb "SMYO"
+1- SqlLocalDb create "akifzsche"
 
-2- SqlLocalDb information "SMYO"
+2- SqlLocalDb info "akifzsche"
 
 in the information
 
 If "Status: Stopped"
 
-SqlLocalDb starts "SMYO"
+SqlLocalDb start "akifzsche"
+
+open sql server or any mssql launcher
+
+server is :(localdb)\akifzsche
+
+connect with Windows authentication
