@@ -7,7 +7,7 @@ Written with .NET Blazor on the backend side.
 
 to make it work:
 
-install the sqllocaldb 2019 and dotnet sdk
+install the sqllocaldb 2019 and dotnet sdk(v5.0.403)
 
 then:
 
