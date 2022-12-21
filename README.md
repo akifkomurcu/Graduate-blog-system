@@ -3,7 +3,7 @@ This is a graduate blog system
 
 My project is based on alumni helping students.
 
-Written with .NET Blazor on the backend side.
+Written with .NET Blazor.
 
 to make it work:
 
